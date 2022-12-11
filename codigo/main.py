@@ -164,7 +164,7 @@ def movies_menu(root_main):
 
     # Imagen de la ventana
     file_path = os.path.dirname(os.path.abspath(__file__))
-    img_movie_path = os.path.join(file_path, "imagenes", "oruga6.png")
+    img_movie_path = os.path.join(file_path, "imagenes", "oruga.png")
     img_movie = tk.PhotoImage(file=img_movie_path)
     tk.Label(root, image=img_movie, bg="pink").grid(
         row=0, column=8, rowspan=8, columnspan=3)
